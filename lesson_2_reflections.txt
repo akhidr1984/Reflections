@@ -9,3 +9,7 @@ To be determined!!!!!!!
 3) How can you use the staging area to make sure you have one commit per logical change?
 
 To be determined
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+to make different versions of files, i.e. create parallel paths
