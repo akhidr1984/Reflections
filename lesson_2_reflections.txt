@@ -17,3 +17,8 @@ to make different versions of files, i.e. create parallel paths
 5) How do the diagrams help you visualize the branch structure?
 
 by figuring out where the head is right now and the difference between detached head state and new branch (branch has id while detached head doesn't so you can't check it out if you leave it, meaning changes you do are lost when you leave it unless you make it a branch)
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+the changes in both are united with the label of the CHECKED OUT BRANCH updated to the new commit, the other branch can now be deleted safely since all it's commits are now reachable
+
