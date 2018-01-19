@@ -13,3 +13,7 @@ To be determined
 4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 to make different versions of files, i.e. create parallel paths
+
+5) How do the diagrams help you visualize the branch structure?
+
+by figuring out where the head is right now and the difference between detached head state and new branch (branch has id while detached head doesn't so you can't check it out if you leave it, meaning changes you do are lost when you leave it unless you make it a branch)
