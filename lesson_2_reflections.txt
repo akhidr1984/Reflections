@@ -22,3 +22,7 @@ by figuring out where the head is right now and the difference between detached 
 
 the changes in both are united with the label of the CHECKED OUT BRANCH updated to the new commit, the other branch can now be deleted safely since all it's commits are now reachable
 
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros: makes it easy and less time consuming when there is no conflict in code
+cons: when there is a conflict, i have to resolve it manually and commit the resolution
