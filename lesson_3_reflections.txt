@@ -11,3 +11,8 @@ so i can have control on which changes to pull and which to not
 forks: copies repos on github onto my account on github to be able to work on the source coude myself if i don't have permission to modify the original (github to github)
 clones: downloads the commit history of a repo from github to my local machine while setting the github repo as a remote
 branch: commits that are on a different path from the master path and who can have any experimental changes made to them while not affecting the master path
+
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+to be able to tell if other people made changes to the remote that are not in my local repo
+
