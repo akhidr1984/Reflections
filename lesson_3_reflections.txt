@@ -16,3 +16,6 @@ branch: commits that are on a different path from the master path and who can ha
 
 to be able to tell if other people made changes to the remote that are not in my local repo
 
+5) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+when working with others, I shouldn't change master individually so as to give them a chance to review the changes, and the same goes for everyone else, instead any changes should be made on a separate branch created specificaly for this purpose and then creating a pull request to give others the chance to review the changes, and when accepeted the master will be updated. when there is a conflict, the changes must be resolved localy not on github. so i merge one of the changes on github by accepting the pull reqeust, then pull the master into my local repo, merge it with my changed branch, resolving the conflict in the process, push my changes to the branch on github, then create a pull request from the branch into master.
